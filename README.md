@@ -4,7 +4,7 @@ In response to MPEDA's Innovation Challenge, our team successfully developed a S
 
 Instructions to use the Chatbot:
 
-git clone https://github.com/Saikat-KGP/MPEDA_CHATBOT.git
+git clone https://github.com/SRINJOY59/Seafood_Chatbot.git
 pip install bardapi
 go to bard-> console-> application -> cookies-> bard link -> _Secure - 1PSID api key 4)pip install langchain
 pip install openai
