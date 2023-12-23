@@ -1,10 +1,8 @@
-Our chatbot  utilizes Langchain for question answering and is used for 3 different purposes:
+Description of The Chatbot :
 
-Queries related to seafood and seafood business
-Providing description from Images(BARD)
-Reading from personal csv files We used beautiful soup for scrapping data from MPEDA and other websites and cleaned the text and made a pdf. Langchain is used to do question answering from this pdf Web scraping data from the MPEDA official website and multiple seafood export company websites, followed by text cleaning, preprocessing using NLTK & re library.
-EfficientNet for classifying image,Flask as the main python framework for integration,News API for showing recent news related to seafood business,Google Firebase - creating database of login,smtplib for providing follow up emails with proper summary
-Instructions
+In response to MPEDA's Innovation Challenge, our team successfully developed a Seafood Enquiry Chatbot using Langchain. We scraped relevant data from government websites, applying NLTK, re and RecursiveTextSplitter for meticulous data cleaning and data preprocessing. Utilizing SentenceTransformerEmbeddings and Chromadb, we established an effective vector database, enabling seamless storage and retrieval of vector embeddings for diverse operations, mainly for similarity search. In this chatbot, GPT-3.5-turbo streamlined question answering, extending its functionality to question answering from CSV files also. For image classification, we implemented EfficientNet80, a pre-trained CNN architecture, coupled with BARD API for detailed image descriptions. Integration via Flask provided a unified interface, complemented by REST APIs for real-time updates on recent seafood and business news. Our implementation prioritized network security, encompassing password verification, removing explicit content and prompt leaking, secure user authentication through login and signup features and providing follow-up emails using summary of chats using smtplib library.
+
+Instructions to use the Chatbot:
 
 git clone https://github.com/Saikat-KGP/MPEDA_CHATBOT.git
 pip install bardapi
